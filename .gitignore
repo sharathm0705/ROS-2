@@ -1,0 +1,17 @@
+build/
+install/
+log/
+*.o
+*.out
+.vscode/
+.idea/
+.vscode/
+.vscode/
+build/
+build/
+install/
+log/
+.vscode/
+build/
+install/
+log/
