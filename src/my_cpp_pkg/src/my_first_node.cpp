@@ -11,6 +11,7 @@ MyNode() : Node("Cpp_Test"),counter_(0){
 private:
 void timerCallBack ()
 {
+    // To send message continuosly :
     RCLCPP_INFO(this->get_logger(),"Hello %d",counter_);
     counter_++;
 

@@ -8,7 +8,7 @@ class MyNode(Node):
           self.counter_=0
           self.get_logger().info("Hello World")
           self.create_timer(1.0,self.timer_callback)
-
+     # To send message continuosly :
      def timer_callback(self):
           self.get_logger().info("Hello !!... "+str(self.counter_))
           self.counter_+=1
