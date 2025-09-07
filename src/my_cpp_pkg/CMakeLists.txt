@@ -12,10 +12,9 @@ find_package(rclcpp REQUIRED)
 add_executable(cpp_node src/my_first_node.cpp)
 ament_target_dependencies(cpp_node rclcpp)
 
-install(TARGETS
-  cpp_node
-  DESTINATION lib/${PROJECT_NAME}
-
+install(TARGETS 
+    cpp_node
+    DESTINATION lib/${PROJECT_NAME}
 )
 
 ament_package()
