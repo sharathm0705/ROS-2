@@ -1,7 +1,6 @@
-//To print a message :
+//simple node to print a message :
 
 #include "rclcpp/rclcpp.hpp"
-
 int main(int argc,char **argv){
     rclcpp::init(argc,argv);
     auto node=std::make_shared<rclcpp::Node>("cpp_test");
@@ -10,3 +9,4 @@ int main(int argc,char **argv){
     rclcpp::shutdown();
     return 0;
 }
+
