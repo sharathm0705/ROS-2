@@ -1,4 +1,4 @@
-#To send a message :
+#A sime node to send a message :
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
